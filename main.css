@@ -23,6 +23,20 @@ body {
   transform: translate(-0%, -0%);
   
 }
+
+.image2{
+  height: 400px;
+  width: 400px;
+  border: 2px solid yellow;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: contain; 
+  top:0%;
+  left: 0%;
+  position: absolute;
+  transform: translate(-0%, -0%);
+}
+
 .flex-container1{
   display: flex;
   position: absolute;
@@ -79,8 +93,33 @@ body {
   position: absolute;
   overflow: scroll;
   justify-content: center;
-  
+
 }
+
+.bx1{
+  background-image: url('./images/11.png');
+  background-repeat: no-repeat;
+  background-attachment:scroll;
+  background-position:center; 
+  background-size:70% 80%;
+}
+
+.bx2{
+  background-image: url('./images/22.jpg');
+  background-repeat: no-repeat;
+  background-attachment:scroll;
+  background-position:center; 
+  background-size:70% 80%;
+}
+.bx3{
+  background-image: url('./images/23.jpg');
+  background-repeat: no-repeat;
+  background-attachment:scroll;
+  background-position:center; 
+  background-size:70% 80%;
+}
+
+
 
 .flexbox-container3-video{
   display: flex;
@@ -90,8 +129,6 @@ body {
   width: 90%;
   position: absolute;
   justify-content: center;
-  
-
   
 }
 
@@ -104,36 +141,40 @@ body {
   top: 20px;
   margin: 40px auto;
   position: absolute;
- 
   
 }
 
 h1{
+display: flex;
 font-weight: 800;
 font-size: large;
 font-family: Arial, Helvetica, sans-serif;
 color: rgb(178, 58, 58);
 font-size: 40px;
-position: static;
+
 }
 
+
 p, dd{
-  
+  display: flex; 
   font-size: large;
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(20, 2, 2);
   font-size: 26px;
-  position: static;
+  margin: 1px;
+  
+
  }
 
  h2{
   display: flex;
   font-family: Arial, Helvetica, sans-serif;
-  color: crimson;
+  color: rgb(20, 2, 2);
   font-weight: bold;
   font-size: 26px;
-  position: absolute;
-  justify-content: center;
+  
+  
+  
   
   
 }
@@ -174,8 +215,6 @@ p, dd{
     justify-content: center;
     flex-wrap: wrap;
     height: 700px;
-   
-   
   }
 
   .flexbox-container3-video{
@@ -184,16 +223,28 @@ p, dd{
 
   }
 
-  h1, p,dd{
+  h1{
+    font-weight: 800;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(178, 58, 58);
+    position: static;
+    }
+    
+  p,dd{
    font-size: small ;
+
   } 
+  h2{
+    font-weight: 500;
+    font-size: large;
+  }
 
   .page-title{
    font-size: large;
    position: static;
  
   }
-
 
   .video1{
     top:2%;
